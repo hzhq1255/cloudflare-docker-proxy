@@ -4,7 +4,7 @@ addEventListener("fetch", (event) => {
 });
 
 const routes = {
-  "cloudflare-docker-proxy.hzhq1255.workers.dev": "https://registry-1.docker.io",
+  "docker-proxy.hzhq1255.work": "https://registry-1.docker.io",
 //   "quay.libcuda.so": "https://quay.io",
 //   "gcr.libcuda.so": "https://gcr.io",
 //   "k8s-gcr.libcuda.so": "https://k8s.gcr.io",
