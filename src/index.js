@@ -5,17 +5,17 @@ addEventListener("fetch", (event) => {
 
 const routes = {
     // docker proxy
-    "docker-proxy.hzhq1255.work": "https://registry-1.docker.io",
+    "docker.mirror.registry.hzhq1255.work": "https://registry-1.docker.io",
     // quay proxy
-    "quay-proxy.hzhq1255.work": "https://quay.io",
+    "quay.mirror.registry.hzhq1255.work": "https://quay.io",
     // gcr proxy
-    "gcr-proxy.hzhq1255.work": "https://gcr.io",
+    "gcr.mirror.registry.hzhq1255.work": "https://gcr.io",
     // k8s gcr proxy
-    "k8s-gcr-proxy.hzhq1255.work": "https://k8s.gcr.io",
+    "k8s-gcr.mirror.registry.hzhq1255.work": "https://k8s.gcr.io",
     // k8s proxy
-    "k8s-proxy.hzhq1255.work": "https://registry.k8s.io",
+    "k8s.mirror.registry.hzhq1255.work": "https://registry.k8s.io",
     // ghcr proxy
-    "ghcr-proxy.hzhq1255.work": "https://ghcr.io",
+    "ghcr.mirror.registry.hzhq1255.work": "https://ghcr.io",
     //   "cloudsmith.libcuda.so": "https://docker.cloudsmith.io",
 };
 
